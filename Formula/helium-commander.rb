@@ -1,8 +1,8 @@
 class HeliumCommander < Formula
   desc "A command line interface to the Helium API."
   homepage "https://github.com/helium/helium-commander"
-  url "https://pypi.python.org/packages/54/c4/20dc8868b95edd7e0086574342d14b57100c2e4427a17da8a15cee8e399c/helium-commander-0.14.0.tar.gz"
-  sha256 "bd7582ae059932baab4fda3019fa7d45168a2137e75709c6ec33c292511855b0"
+  url "https://files.pythonhosted.org/packages/ca/1d/de2c06bcab5496cc41e645ff96eb94e3fe6d6c06d31eec10f80b77db7a04/helium-commander-0.15.3.tar.gz"
+  sha256 "dd162f26ffc41b1d027bd5e6f7f4ed357782de16306c8499889933c1400bb4a4"
 
   resource "click" do
     url "https://files.pythonhosted.org/packages/95/d9/c3336b6b5711c3ab9d1d3a80f1a3e2afeb9d8c02a7166462f6cc96570897/click-6.7.tar.gz"
@@ -19,24 +19,9 @@ class HeliumCommander < Formula
     sha256 "0542525145d5afc984c88f914a0c85c77527f65946617edb5274f72406f981df"
   end
 
-  resource "gevent" do
-    url "https://files.pythonhosted.org/packages/54/dd/17dc7e899ac7c1de2d19b367b29d90fdb4cfe83bda8c2581464906c9399d/gevent-1.2.1.tar.gz"
-    sha256 "3de300d0e32c31311e426e4d5d73b36777ed99c2bac3f8fbad939eeb2c29fa7c"
-  end
-
-  resource "greenlet" do
-    url "https://files.pythonhosted.org/packages/03/a6/8842d7215e1c54537eb5d0b8fd3e8562cc869b6d193317b11027ff7d8009/greenlet-0.4.11.tar.gz"
-    sha256 "3095bda0db92736c3197912c9f7f8065e5630a03b2f6c431617338228d9811f6"
-  end
-
-  resource "helium-commander" do
-    url "https://files.pythonhosted.org/packages/54/c4/20dc8868b95edd7e0086574342d14b57100c2e4427a17da8a15cee8e399c/helium-commander-0.14.0.tar.gz"
-    sha256 "bd7582ae059932baab4fda3019fa7d45168a2137e75709c6ec33c292511855b0"
-  end
-
   resource "helium-python" do
-    url "https://files.pythonhosted.org/packages/be/76/6f87c5a0425912d88887e6d74512f7bd7bbbe33c7ea379c2eef620395fe8/helium-python-0.6.6.tar.gz"
-    sha256 "ec8e8725b2faea872a87120b38c786d1e06a9c2c039e7704db51cebe0eb23a37"
+    url "https://files.pythonhosted.org/packages/ef/3a/b20b618d250c251ecbd0d1a97be284f8f79ad090252effd79b23155f985c/helium-python-0.8.1.tar.gz"
+    sha256 "330b34fd6ab6e2aabc7aa23c175b5089c25617b6dba0da50c9ffd6efb38894a9"
   end
 
   resource "inflection" do
@@ -45,8 +30,8 @@ class HeliumCommander < Formula
   end
 
   resource "requests" do
-    url "https://files.pythonhosted.org/packages/49/6f/183063f01aae1e025cf0130772b55848750a2f3a89bfa11b385b35d7329d/requests-2.10.0.tar.gz"
-    sha256 "63f1815788157130cee16a933b2ee184038e975f0017306d723ac326b5525b54"
+    url "https://files.pythonhosted.org/packages/16/09/37b69de7c924d318e51ece1c4ceb679bf93be9d05973bb30c35babd596e2/requests-2.13.0.tar.gz"
+    sha256 "5722cd09762faa01276230270ff16af7acf7c5c45d623868d9ba116f15791ce8"
   end
 
   resource "terminaltables" do
