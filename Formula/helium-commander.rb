@@ -1,8 +1,8 @@
 class HeliumCommander < Formula
   desc "A command line interface to the Helium API."
   homepage "https://github.com/helium/helium-commander"
-  url "https://files.pythonhosted.org/packages/ee/98/a44d594c0acaebf9380ce3f7bafd48b04dead0c5ac0c01d7e7db90c67f47/helium-commander-0.15.6.tar.gz"
-  sha256 "9a4446f717d7248c9347cb894919798b11e660ed780f356fa22b7965ef7db7df"
+  url "https://files.pythonhosted.org/packages/c2/1e/6e39f6f95f45a810c59ef124b3f2dd7175c9037133b77c818923e3203473/helium-commander-0.15.7.tar.gz"
+  sha256 "72e02ff85274057348752e03c4b89ab811b3e8471a23262f8128e9cccb34425b"
 
   resource "click" do
     url "https://files.pythonhosted.org/packages/95/d9/c3336b6b5711c3ab9d1d3a80f1a3e2afeb9d8c02a7166462f6cc96570897/click-6.7.tar.gz"
